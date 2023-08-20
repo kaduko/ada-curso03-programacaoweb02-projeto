@@ -23,7 +23,10 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(AbstractHttpConfigurer::disable)
+                .headers(headers -> headers.frameOptions(Customizer.withDefaults()).disable())
+                .csrf(csrf -> csrf
+                        .ignoringRequestMatchers(AntPathRequestMatcher.antMatcher("/h2-console/**"))
+                )
                 .authorizeHttpRequests((requests) -> {
 
                     requests.requestMatchers(AntPathRequestMatcher.antMatcher("/h2-console/**"))
