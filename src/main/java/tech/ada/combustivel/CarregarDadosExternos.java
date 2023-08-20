@@ -1,4 +1,4 @@
-package tech.ada;
+package tech.ada.combustivel;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

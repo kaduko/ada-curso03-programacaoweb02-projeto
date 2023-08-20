@@ -1,4 +1,4 @@
-package tech.ada;
+package tech.ada.combustivel;
 
 public class App {
     public static void main(String[] args) {

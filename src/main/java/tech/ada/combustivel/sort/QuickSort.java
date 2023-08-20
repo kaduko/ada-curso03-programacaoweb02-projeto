@@ -1,6 +1,6 @@
-package tech.ada.sort;
+package tech.ada.combustivel.sort;
 
-import tech.ada.Revenda;
+import tech.ada.combustivel.Revenda;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package tech.ada;
+package tech.ada.combustivel;
 
-import tech.ada.sort.QuickSort;
-import tech.ada.util.FormatacaoUtil;
+import tech.ada.combustivel.sort.QuickSort;
+import tech.ada.combustivel.util.FormatacaoUtil;
 
 import java.util.ArrayList;
 import java.util.HashSet;

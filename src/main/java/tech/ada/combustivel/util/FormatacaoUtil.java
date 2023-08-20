@@ -1,4 +1,4 @@
-package tech.ada.util;
+package tech.ada.combustivel.util;
 
 public class FormatacaoUtil {
     public static void pularLinha(int numeroDeLinhas){

@@ -1,4 +1,4 @@
-package tech.ada;
+package tech.ada.combustivel;
 
 import java.util.Locale;
 import java.util.Scanner;
